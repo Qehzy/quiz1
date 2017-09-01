@@ -6,9 +6,26 @@ $font: Verdana;
 $leftMargin: 50px;
 $padding: 10px;
 
+//MIXIN
+@mixin border-radius($bradius) {
+    -webkit-border-radius: $bradius;
+       -moz-border-radius: $bradius;
+        -ms-border-radius: $bradius;
+            border-radius: $bradius;
+  }
+
+  @mixin border($border) {
+    -webkit-border: $border;
+       -moz-border: $border;
+        -ms-border: $border;
+            border: $border;
+  }
+  
+ 
+
 header {
-    border: 2px solid #064277;
-    border-radius: 20px;
+    @include border-radius(20px); 
+    @include border(2px solid #064277);
     margin: 10px auto;
     padding: $padding;
     background-color: $backgroundColor;
@@ -37,8 +54,8 @@ h1 {
 }
 
 #list{
-    border: 2px solid #064277;
-    border-radius: 20px;
+    @include border-radius(20px);
+    @include border(2px solid #064277);
     background-color: $backgroundColor;
 }
 
@@ -61,15 +78,15 @@ p{
 }
 
 .samplepara {
-    border: 3px solid #58a0e0;
-    border-radius: 5px;
+    @include border-radius(20px);
+    @include border(3px solid #58a0e0);
     padding: $padding;
     background-color: white;
 }
 
 footer {
-    border: 2px solid #064277;
-    border-radius: 20px;
+    @include border-radius(20px);
+    @include border(2px solid #064277);;
     margin: 10px auto;
     padding: $padding;
     background-color: $backgroundColor;

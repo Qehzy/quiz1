@@ -1,7 +1,13 @@
 /* Quiz styles */
 header {
-  border: 2px solid #064277;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
   border-radius: 20px;
+  -webkit-border: 2px solid #064277;
+  -moz-border: 2px solid #064277;
+  -ms-border: 2px solid #064277;
+  border: 2px solid #064277;
   margin: 10px auto;
   padding: 10px;
   background-color: aliceblue;
@@ -23,8 +29,14 @@ h1 {
   padding: 10px; }
 
 #list {
-  border: 2px solid #064277;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
   border-radius: 20px;
+  -webkit-border: 2px solid #064277;
+  -moz-border: 2px solid #064277;
+  -ms-border: 2px solid #064277;
+  border: 2px solid #064277;
   background-color: aliceblue; }
 
 h2 {
@@ -42,14 +54,26 @@ p {
   font-style: normal; }
 
 .samplepara {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-border: 3px solid #58a0e0;
+  -moz-border: 3px solid #58a0e0;
+  -ms-border: 3px solid #58a0e0;
   border: 3px solid #58a0e0;
-  border-radius: 5px;
   padding: 10px;
   background-color: white; }
 
 footer {
-  border: 2px solid #064277;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
   border-radius: 20px;
+  -webkit-border: 2px solid #064277;
+  -moz-border: 2px solid #064277;
+  -ms-border: 2px solid #064277;
+  border: 2px solid #064277;
   margin: 10px auto;
   padding: 10px;
   background-color: aliceblue; }
